@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> M.S Giyim | Anasayfa</title>
+	<script type="text/javascript">
+		var sayi=0;
+		function arttir(event)
+		{
+			sayi++;
+			document.getElementById("sayi").innerHTML="";
+			document.getElementById("sayi").innerHTML=""+sayi+"";
+			document.getElementById("sayi").style="color:red;";
+		}
+	</script>
+	<style>
+		img.kampanyaimg1 {
+			width:5%;
+			height:9%;
+			position:absolute;
+			margin-left:161px;
+			margin-top:254px;
+
+		}
+		.e-posta:focus,.sifre:focus,.giriş_yap:focus {
+			background: #728EAA;
+			background: -moz-linear-gradient(top, #668099 0%, #728EAA 20%);
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #668099), color-stop(20%,  #22a6b3));
+			outline: 0;
+		}
+		.kategorisima{
+			height: 35px;
+		}
+	</style>
+	<link href="css/kategori.css" rel="stylesheet">
+	<link href="css/anamenü.css" rel="stylesheet">
+	<link href="css/altmenu.css" rel="stylesheet">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	
+	
+	<div class="kategori">
+		<ul class="menu">
+			<li><a href=""><img src="resimler/logo.png" class="logo"></a></li>
+			<li> <a href="Alışveriş.html" class="anasayfa"> Anasayfa</a> </li>
+			<li> <a href="">Kategoriler</a> 
+				<ul>
+					<li> <a href="kategoriler/kadin.html">KADIN </a>	</li>
+					<li> <a href="kategoriler/erkek.html">ERKEK </a>	</li>
+					<li> <a href="kategoriler/tshirt.html">T-SHİRT </a>	</li>
+					<li> <a href="kategoriler/sweatshirt.html">SWEATSHİRT	</a>	</li>
+					<li> <a href="kategoriler/pantolon.html">PANTOLON	</a>	</li>
+					<li> <a href="kategoriler/elbise.html">ELBİSE</a>	</li>
+
+				</ul></li>
+				<li> <a href="kategoriler/iletişim.html">İletişim </a>	</li>
+				<li><p class="sayi" id="sayi">0</p>  <a href="">Sepetim </a> </li>
+				<li>  <a href="kategoriler/giriş.html">Giriş</a></li>
+			</ul>	
+		</div>
+		<div class="amenu">
+			<div class="kategorisima">
+				
+			</div>
+			<div class="süt1">
+				<a href="kıyafetler/tshirt/kadintshirt1.html">
+					<img class="kampanyaimg1" src="resimler/kampanya1.1.png"/>
+					<img class="imgsola" src="resimler/tshirt/kadintshirt1.1.jpg" />
+				</a>
+				<a href="kıyafetler/tshirt/kadintshirt2.html">
+					<img class="imgsola" src="resimler/tshirt/kadintshirt2.1.jpg" />
+				</a>
+				<button class="sepetsola1" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsolb1" onclick="arttir()">Sepete Ekle</button>
+				<p class="psola">Kadın Siyah Basic T-Shirt </p>
+				<p class="psolb">Kadın Siyah V Yaka T-Shirt</p>
+
+				<a href="kıyafetler/tshirt/erkektshirt1.html">
+					<img class="imgsolb" src="resimler/tshirt/erkektshirt1.1.jpg" />
+				</a>
+				<a href="kıyafetler/tshirt/erkektshirt2.html">
+					<img class="imgsolb" src="resimler/tshirt/erkektshirt2.1.jpg" />
+				</a>
+				<button class="sepetsola2" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsolb2" onclick="arttir()">Sepete Ekle</button>
+				<p class="psola1">Siyah Erkek Kabartmalı T-shirt</p>
+				<p class="psolb1">Basic Kısa Kollu T-Shirt</p>
+
+				<a href="kıyafetler/elbise/kadinelbise1.html">
+					<img class="imgsolb" src="resimler/elbise/kadinelbise1.1.jpg" />
+				</a>
+				<a href="kıyafetler/elbise/kadinelbise2.html">
+					<img class="imgsolb" src="resimler/elbise/kadinelbise2.1.jpg" />
+				</a>
+				<button class="sepetsola3" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsolb3" onclick="arttir()">Sepete Ekle</button>
+				<p class="psola2">Slim Fit Kadın Elbise</p>
+				<p class="psolb2">Sarı Düz Renk Elbise</p>
+			</div>	
+			
+			
+			<div class="süt2">
+				<a href="kıyafetler/sweatshirt/kadınsweatshirt1.html">
+					<img class="imgsaga" src="resimler/sweatshirt/kadinsweatshirt1.1.jpg" />
+				</a>
+				<a href="kıyafetler/sweatshirt/erkeksweatshirt1.html">
+					<img class="imgsaga" src="resimler/sweatshirt/erkeksweatshirt1.1.jpg" />
+				</a>
+				<button class="sepetsaga1" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsagb1" onclick="arttir()">Sepete Ekle</button>
+				<p class="psaga">Kadın Siyah Sweatshirt </p>
+				<p class="psagb">Degaje Yaka Sweatshirt</p>
+
+				<a href="kıyafetler/">
+					<img class="imgsagb" src="resimler/pantolon/erkekpantolon2.2.png">
+				</a>
+				<a href="kıyafetler/">
+					<img class="imgsagb" src="resimler/pantolon/erkekpantolon1.2.png">
+				</a>
+				<button class="sepetsaga2" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsagb2" onclick="arttir()">Sepete Ekle</button>
+				<p class="psaga1">Erkek Fit Jean Pantolon	</p>
+				<p class="psagb1">Erkek Fit Kadife Pantolon	</p>
+
+				<a href="kıyafetler/">
+					<img class="imgsagb" src="resimler/pantolon/kadinpantolon1.2.png">
+				</a>
+				<a href="kıyafetler/">
+					<img class="imgsagb" src="resimler/pantolon/kadinpantolon2.2.png">
+				</a>
+				<button class="sepetsaga3" onclick="arttir()">Sepete Ekle</button>
+				<button class="sepetsagb3" onclick="arttir()">Sepete Ekle</button>
+				<p class="psaga2">Kadın Relax Fit Pantolon	</p>
+				<p class="psagb2">Kadın Skinny Jean Pantolon  </p>
+			</div>	
+
+		</div>
+		
+		<div class="altmenu">
+
+			<div class="altkategori">
+				<h4 class="kategorih">Kategoriler</h4>
+				<div class="altkategorisol">
+					<a href="kategoriler/kadin.html" class="altkategoria altkategorikadin"><p class="kategorip">Kadın</p></a>		
+					<a href="kategoriler/elbise.html" class="altkategoria"><p class="kategorip2">Elbise</p></a>
+					<a href="kategoriler/sweatshirt.html" class="altkategoria"><p class="kategorip">Sweatshirt</p></a>
+					<a href="kategoriler/pantolon.html" class="altkategoria"><p class="kategorip">Pantolon</p></a>
+				</div>
+				<div class="altkategorisag">
+					<a href="kategoriler/erkek.html" class="altkategoria"><p class="kategorip2">Erkek &nbsp &nbsp</p></a>
+					<a href="kategoriler/tshirt.html" class="altkategoria"><p class="kategorip">T-Shirt</p></a>
+					<a href="kategoriler/aksesuar.html" class="altkategoria"><p class="kategorip2">Aksesuar</p></a>
+				</div>
+			</div>
+
+			<div class="iletisimenu">
+				<h4 class="iletisimh"> İletişim </h4>
+				<p class="iletisimtel">Telefon : 05444058362</p>
+				<p class="iletisimadres"> Adres: 203 sk/40 no:3 </p>
+			</div>
+			
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+	</body></html>

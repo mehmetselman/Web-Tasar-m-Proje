@@ -1,0 +1,3 @@
+Responsive tasarým yapmayý bilmediðim ve siteyi baþka bilgisayarda 
+deneme imkaným olmadýðý için kendi bilgisayarýmdaki site içi görünümlerinin ekran
+görüntülerini koydum.
